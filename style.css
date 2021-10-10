@@ -276,6 +276,7 @@ mark{
   margin: 10px;
   position: relative;
   text-align: center;
+  cursor: pointer;
 }
 .box-mesa img{
   width: 25px;
