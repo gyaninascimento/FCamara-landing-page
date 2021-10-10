@@ -323,3 +323,32 @@ mark{
   background-color: #ccc;
   transition: all 0.5s;
 }
+
+/*-----------------------------------FORM----------------------------------------------------------------*/
+form{
+  text-align: center;
+}
+input, textarea, select, #date {
+  width: calc(60% - 18px);
+  padding: 10px 15px;
+  border-radius:25px;
+  margin:10px 20px;
+  border: 1px solid #303033;
+  resize: none;
+  transition: 250ms width ease, 250ms border-color ease;
+  background-color: #fff;
+}
+input::placeholder, textarea::placeholder {
+  color: #303033;
+  font-family: 'Open Sans', sans-serif;
+}
+#appearance-select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(img/seta.gif) no-repeat;
+  background-size: 30px;
+  background-position: 630px center;
+  color: #303033;
+  background-color: #fff;
+}
