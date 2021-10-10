@@ -147,15 +147,14 @@ nav a:hover {
 .parallax {
   display: flex;
   flex-direction: row;
-  height: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
   z-index: 99;
   background-size: cover;
   background-position: center center;
   transform: scale(1.05);
 }
+
 
 .parallax-text {
   text-align: center;
@@ -577,11 +576,15 @@ div.group-icons a {
     font-size: 13px;
   }
   .btn-agendamento {
-    margin: 10px 10px;
+    margin: 7px;
+    padding: 13px 29px;
+    font-size: 13px;
+    height: 40px;
   }
+
+  
   .typewriter h1 {
-    font-size: 12px;
-    padding-bottom: 50px;
+    font-size: 14px;
   }
   .orientacoes h2 {
     font-size: 20px;
