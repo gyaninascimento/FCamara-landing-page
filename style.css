@@ -109,4 +109,54 @@ nav a:hover {
   -webkit-transform: translateY(-8px) rotate(45deg);
   transform: translateY(-8px) rotate(45deg);
 }
+/*-------------------------------------PARALLAX---------------------------------------------------------------------*/
+.overlay {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+  top: 0;
+}
+.parallax {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 99;
+  background-size: cover;
+  background-position: center center;
+  transform: scale(1.05);
+}
+.parallax-text {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.parallax-header{
+  align-self: center;
+}
+.parallax h2 {
+  color: #303033;
+  font-size: 30px;
+  padding: 30px 20px 30px 20px;
+  z-index: 2;
+  position: relative;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+.parallax p {
+  color: #303033;
+  font-size: 20px;
+  text-align: justify;
+  padding: 5px 20px 5px 20px;
+  z-index: 2;
+  position: relative;
+}
+span{
+  color: #fc6027;
+  text-shadow: 3px 3px 1px #ccc;
+}
 
