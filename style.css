@@ -159,4 +159,51 @@ span{
   color: #fc6027;
   text-shadow: 3px 3px 1px #ccc;
 }
+/*-----------------------------------BTN E TYPE PARALLAX----------------------------------------------------------------*/
+.btn-agendamento{
+  background-color: #06204b;
+  border: 0;
+  border-radius: 25px;
+  padding: 15px 32px;
+  margin: 30px 30px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  height: 50px;
+}
+.btn-agendamento a{
+  text-decoration: none;
+  color: #fff;
+}
+.btn-agendamento:hover {
+  background-color: #051836;
+  transition: all 0.5s;
+}
+.typewriter h1 {
+  overflow: hidden;
+  font-size: 40px;
+  z-index: 2;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 50px ;
+  color: #06204b;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 1px #ccc;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from {
+      width: 0 
+ }
+  to {
+      width: 100% 
+ }
+}
 
