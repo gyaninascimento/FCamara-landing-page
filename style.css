@@ -373,3 +373,62 @@ input::placeholder, textarea::placeholder {
   background-color: #051836;
   transition: all 0.5s;
 }
+
+/*-----------------------------------FOOTER----------------------------------------------------------------*/
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-box {
+  flex-basis: 30%;
+  padding: 10px;
+  text-align: center;
+}
+footer{
+  background: #06204b;
+  padding: 20px 0;
+  color: #fff;
+}
+footer h3{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+}
+footer p{
+  font-weight: lighter;
+  margin-top: 8px;
+  text-align: left;
+  font-size: 16px;
+}
+.footer2{
+  background-color: #051836;
+}
+footer h4{
+  text-align: left;
+  font-weight: normal;
+  padding: 0;
+  font-size: 18px;
+}
+footer h5 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+footer a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+div.group-icons {
+  text-align: left;
+}
+div.group-icons a{
+  font-size: 30px;
+  display: inline-block;
+  margin: 15px 18px;
+  text-decoration: none;
+}
