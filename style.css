@@ -432,3 +432,131 @@ div.group-icons a{
   margin: 15px 18px;
   text-decoration: none;
 }
+
+/*------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 700px) {
+  header {
+      position: relative;
+      z-index: 900;
+        position: fixed;
+ }
+  .logo {
+      margin: 0 0 0 20px;
+ }
+  ul {
+      flex-direction: column;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      top: 60px;
+      left: 0px;
+      width: 100%;
+      z-index: 890;
+      font-weight: normal;
+ }
+  li {
+      padding: 10px;
+      text-align: center;
+ }
+  li a {
+      display: block;
+      background: transparent;
+      margin: 0px;
+      padding: 20px;
+      color: #303033 !important;
+ }
+  li a:hover {
+      background: #fc6027;
+ }
+  .icon_nav, .icon_nav span {
+      display: inline-block;
+      transition: all .3s;
+      box-sizing: border-box;
+      z-index: 999;
+ }
+  .parallax h2 {
+      font-size: 20px;
+      margin-top: 70px;
+      padding: 10px;
+ }
+  .parallax p {
+      font-size: 13px;
+ }
+  .btn-agendamento {
+      margin: 10px 10px;
+ }
+  .typewriter h1 {
+      font-size: 12px;
+      padding-bottom: 50px;
+ }
+  .orientacoes h2 {
+      font-size: 20px;
+      margin-top: 20px;
+ }
+  .box-single p {
+      font-size: 13px;
+ }
+  .icones-orientacoes {
+      display: block;
+ }
+  .agendamento h2 {
+      padding-top: 50px;
+      font-size: 20px;
+ }
+  .agendamento h3{
+      font-size: 17px;
+ }
+  .agendamento p {
+      font-size: 13px;
+ }
+  .legenda {
+      text-align: center;
+      padding: 10px 0;
+ }
+  .legenda img {
+      width: 250px;
+ }
+  .box-mesa img {
+      width: 15px;
+ }
+  figcaption {
+      font-size: 8px;
+ }
+  .btn-clear, .btn-reserve {
+      font-size: 10px;
+ }
+  input, textarea, select, #date {
+      width: calc(100% - 18px);
+      margin: 10px 0;
+ }
+ #appearance-select{
+  background-position: 290px center;
+
+}
+  .footer {
+      display: block;
+      text-align: center;
+      font-size: 15px;
+      padding-bottom: 0;
+ }
+  footer p{
+      text-align: center;
+      font-size: 13px;
+ }
+  footer h4{
+      font-size: 16px;
+      text-align: center!important;
+      margin-bottom: -8px;
+ }
+  footer h5 {
+      font-size: 15px;
+      text-align: center;
+      font-weight: normal;
+ }
+  div.group-icons {
+      text-align: center;
+ }
+  div.group-icons a {
+      font-size: 25px;
+ }
+}
