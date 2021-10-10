@@ -268,3 +268,37 @@ mark{
   color: #fff;
 }
 
+/*-----------------------------------MESAS----------------------------------------------------------------*/
+.fileiras {
+  display: flex;
+   justify-content: center;
+ }
+ .box-mesa {
+   width: 50px;
+   margin: 10px;
+   position: relative;
+   text-align: center;
+ }
+ .box-mesa img{
+   width: 25px;
+ }
+ .legenda{
+   text-align: center;
+   padding: 10px 30px;
+ }
+ .legenda img {
+   width: 300px;
+   margin:5px;
+   border: 1px dotted;
+ }
+ figcaption{
+   color: #303033;
+   font-weight: normal;
+   font-size: 12px;
+   margin-top: -5px;
+ }
+ .MesaIndisponivel{
+   pointer-events: none;
+   opacity: 0.5;
+ }
+ 
