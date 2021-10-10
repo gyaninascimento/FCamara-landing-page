@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -15,17 +17,21 @@ body {
   top: 0;
   left: 0;
 }
+
+
 /*-----------------------------------HEADER----------------------------------------------------------------*/
+
 header {
   height: 60px;
   position: fixed;
   text-transform: uppercase;
-  background-color: #06204b;
+  background-color: #fff;
   width: 100%;
   z-index: 3;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.2);
   align-items: center;
 }
+
 .container nav {
   top: 0;
   left: 0;
@@ -35,10 +41,12 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.logo img{
+
+.logo img {
   width: 70%;
   margin-top: 10px;
 }
+
 nav {
   margin: 0px auto;
   display: -webkit-flex;
@@ -46,18 +54,21 @@ nav {
   -ms-align-items: center;
   align-items: center;
 }
+
 ul {
   display: -webkit-flex;
   display: flex;
   list-style: none;
 }
+
 nav li {
   padding: 0 16px;
   transition: 0.3s;
   text-align: center;
 }
+
 ul li a {
-  color: #fff;
+  color: #303033;
   text-decoration: none;
   margin: 0;
   padding: 20px;
@@ -66,13 +77,17 @@ ul li a {
   border-radius: 5px;
   font-weight: normal;
 }
+
 nav a:hover {
-  color: #fc6027;
+  color: #EF653C;
   font-weight: normal;
 }
-.icon_nav, .icon_nav span {
+
+.icon_nav,
+.icon_nav span {
   display: none;
 }
+
 .icon_nav {
   width: 30px;
   height: 20px;
@@ -80,35 +95,45 @@ nav a:hover {
   position: relative;
   cursor: pointer;
 }
+
 .icon_nav span {
-  background: #fff;
+  background: #303033;
   position: absolute;
   left: 0;
   width: 100%;
   height: 4px;
   border-radius: 4px;
 }
+
 .icon_nav span:nth-of-type(1) {
   top: 0;
 }
+
 .icon_nav span:nth-of-type(2) {
   top: 8px;
 }
+
 .icon_nav span:nth-of-type(3) {
   bottom: 0;
 }
+
 .icon_nav.active span:nth-of-type(1) {
   -webkit-transform: translateY(8px) rotate(-45deg);
   transform: translateY(8px) rotate(-45deg);
 }
+
 .icon_nav.active span:nth-of-type(2) {
   display: none;
 }
+
 .icon_nav.active span:nth-of-type(3) {
   -webkit-transform: translateY(-8px) rotate(45deg);
   transform: translateY(-8px) rotate(45deg);
 }
+
+
 /*-------------------------------------PARALLAX---------------------------------------------------------------------*/
+
 .overlay {
   z-index: 1;
   position: absolute;
@@ -118,6 +143,7 @@ nav a:hover {
   left: 0;
   top: 0;
 }
+
 .parallax {
   display: flex;
   flex-direction: row;
@@ -130,22 +156,26 @@ nav a:hover {
   background-position: center center;
   transform: scale(1.05);
 }
+
 .parallax-text {
   text-align: center;
   color: rgb(0, 0, 0);
 }
-.parallax-header{
+
+.parallax-header {
   align-self: center;
 }
+
 .parallax h2 {
   color: #303033;
   font-size: 30px;
   padding: 30px 20px 30px 20px;
   z-index: 2;
   position: relative;
-  margin-top: 70px;
+  margin-top: 60px;
   text-transform: uppercase;
 }
+
 .parallax p {
   color: #303033;
   font-size: 20px;
@@ -154,13 +184,17 @@ nav a:hover {
   z-index: 2;
   position: relative;
 }
-span{
-  color: #fc6027;
+
+span {
+  color: #EF653C;
   text-shadow: 3px 3px 1px #ccc;
 }
+
+
 /*-----------------------------------BTN E TYPE PARALLAX----------------------------------------------------------------*/
-.btn-agendamento{
-  background-color: #06204b;
+
+.btn-agendamento {
+  background-color: #4b4fa1;
   border: 0;
   border-radius: 25px;
   padding: 15px 32px;
@@ -175,134 +209,166 @@ span{
   text-transform: uppercase;
   height: 50px;
 }
-.btn-agendamento a{
+
+.btn-agendamento a {
   text-decoration: none;
   color: #fff;
 }
+
 .btn-agendamento:hover {
-  background-color: #051836;
+  background-color: #686dc4;
   transition: all 0.5s;
 }
+
 .typewriter h1 {
   overflow: hidden;
   font-size: 40px;
   z-index: 2;
   position: relative;
   text-transform: uppercase;
-  padding-bottom: 50px ;
-  color: #06204b;
+  padding-bottom: 50px;
+  color: #4b4fa1;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 1px;
   text-shadow: 3px 3px 1px #ccc;
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
+
 @keyframes typing {
   from {
-      width: 0 
- }
+    width: 0
+  }
   to {
-      width: 100% 
- }
+    width: 100%
+  }
 }
+
+
 /*-----------------------------------ORIENTAÇÕES----------------------------------------------------------------*/
-.orientacoes{
-  background-image: linear-gradient(to right, rgb(224, 224, 224), rgba(255,0,0,0));
-  padding: 30px 0 
+
+.orientacoes {
+  background-image: linear-gradient(to bottom, #ffffff, #f8f8f8, #f1f1f1, #eaeaea, #e3e3e3);
+  padding: 30px 0
 }
+
 .orientacoes h2 {
   font-size: 30px;
   text-align: center;
   color: #303033;
   margin-top: 40px;
 }
-.icones-orientacoes{
+
+.icones-orientacoes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .box-single {
   flex-basis: 30%;
   padding: 10px;
   margin: 15px;
   text-align: center;
 }
+
 .box-single img {
   width: 70px;
 }
+
 .box-single p {
   color: #303033;
   font-weight: lighter;
   font-size: 16px;
-  text-align: justify 
+  text-align: justify
 }
-b{
-  color: #fc6027;
+
+b {
+  color: #EF653C;
   font-weight: normal;
 }
+
+
 /*-----------------------------------AGENDAMENTO----------------------------------------------------------------*/
-.agendamento{
-  background-image: linear-gradient(to right, rgb(224, 224, 224), rgba(255,0,0,0));
+
+.agendamento {
+  background-image: linear-gradient(to bottom, #ffffff, #f8f8f8, #f1f1f1, #eaeaea, #e3e3e3);
 }
+
 .agendamento h2 {
   font-size: 30px;
   color: #303033;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 70px;
 }
-.agendamento h3{
+
+.agendamento h3 {
   text-align: center;
   margin: 10px;
   color: #303033;
   font-size: 20px;
 }
-.agendamento p{
+
+.agendamento p {
   font-weight: lighter;
   font-size: 15px;
   text-align: center;
 }
-mark{
-  background-color: #fc6027;
+
+mark {
+  background-color: #EF653C;
   color: #fff;
 }
+
+
 /*-----------------------------------MESAS----------------------------------------------------------------*/
+
 .fileiras {
   display: flex;
   justify-content: center;
 }
+
 .box-mesa {
   width: 50px;
   margin: 10px;
   position: relative;
   text-align: center;
-  cursor: pointer !important ;
+  cursor: pointer !important;
 }
 
-.box-mesa img{
+.box-mesa img {
   width: 25px;
 }
-.legenda{
+
+.legenda {
   text-align: center;
   padding: 10px 30px;
 }
+
 .legenda img {
   width: 300px;
-  margin:5px;
+  margin: 5px;
   border: 1px dotted;
 }
-figcaption{
+
+figcaption {
   color: #303033;
   font-weight: normal;
   font-size: 12px;
   margin-top: -5px;
 }
-.none{
+
+.none {
   pointer-events: none !important;
   opacity: 0.9;
 }
+
+
 /*-----------------------------------BTN-MESA------------------------------------------------------------*/
-.btn-clear, .btn-reserve{
+
+.btn-clear,
+.btn-reserve {
   background-color: rgb(168, 168, 168);
   border: 0;
   border-radius: 25px;
@@ -314,33 +380,45 @@ figcaption{
   cursor: pointer;
   text-align: center;
   align-items: center;
-  margin: 15px 25px 15px 25px ;
+  margin: 15px 25px 15px 25px;
   text-transform: uppercase;
   height: 50px;
 }
-.btn-clear:hover , .btn-reserve:hover {
-  background-color: #ccc;
+
+.btn-clear:hover,
+.btn-reserve:hover {
+  background-color: #686dc4;
   transition: all 0.5s;
 }
+
+
 /*-----------------------------------FORM----------------------------------------------------------------*/
-form{
+
+form {
   text-align: center;
 }
-input, textarea, select, #date {
+
+input,
+textarea,
+select,
+#date {
   width: calc(60% - 18px);
   padding: 10px 15px;
-  border-radius:25px;
-  margin:10px 20px;
-  border: 1px solid #303033;
+  border-radius: 25px;
+  margin: 10px 20px;
+  border: 0;
   resize: none;
   transition: 250ms width ease, 250ms border-color ease;
   background-color: #fff;
 }
-input::placeholder, textarea::placeholder {
+
+input::placeholder,
+textarea::placeholder {
   color: #303033;
   font-family: 'Open Sans', sans-serif;
 }
-#appearance-select{
+
+#appearance-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -350,9 +428,12 @@ input::placeholder, textarea::placeholder {
   color: #303033;
   background-color: #fff;
 }
+
+
 /*-----------------------------------BTN AGENDAMENTO----------------------------------------------------------------*/
+
 .btn-send {
-  background-color: #06204b;
+  background-color: #4b4fa1;
   color: #fff;
   border: 0;
   border-radius: 25px;
@@ -367,191 +448,213 @@ input::placeholder, textarea::placeholder {
   text-transform: uppercase;
   height: 50px;
 }
+
 .btn-send:hover {
-  background-color: #051836;
+  background-color: #686dc4;
   transition: all 0.5s;
 }
+
+
 /*-----------------------------------FOOTER----------------------------------------------------------------*/
-.footer{
+
+.footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .footer-box {
   flex-basis: 30%;
   padding: 10px;
   text-align: center;
 }
-footer{
-  background: #06204b;
+
+footer {
+  background: #686dc4;
   padding: 20px 0;
   color: #fff;
 }
-footer h3{
+
+footer h3 {
   font-weight: normal;
   font-size: 20px;
   text-align: left;
   text-transform: uppercase;
   color: #fff;
 }
-footer p{
+
+footer p {
   font-weight: lighter;
   margin-top: 8px;
   text-align: left;
   font-size: 16px;
 }
-.footer2{
-  background-color: #051836;
+
+.footer2 {
+  background-color: #4b4fa1;
 }
-footer h4{
+
+footer h4 {
   text-align: left;
   font-weight: normal;
   padding: 0;
   font-size: 18px;
 }
+
 footer h5 {
   font-size: 15px;
   text-align: center;
   font-weight: normal;
 }
-footer a{
+
+footer a {
   display: block;
   color: #fff;
   text-decoration: none;
 }
+
 div.group-icons {
   text-align: left;
 }
-div.group-icons a{
+
+div.group-icons a {
   font-size: 30px;
   display: inline-block;
   margin: 15px 18px;
   text-decoration: none;
 }
+
+
 /*------------------------------------------------------------------------------------------------------------*/
+
 @media only screen and (max-width: 700px) {
   header {
-      position: relative;
-      z-index: 900;
-      position: fixed;
- }
+    position: relative;
+    z-index: 900;
+    position: fixed;
+  }
   .logo {
-      margin: 0 0 0 20px;
- }
+    margin: 0 0 0 20px;
+  }
   ul {
-      flex-direction: column;
-      justify-content: center;
-      background: rgba(255, 255, 255, 0.8);
-      position: absolute;
-      top: 60px;
-      left: 0px;
-      width: 100%;
-      z-index: 890;
-      font-weight: normal;
- }
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    z-index: 890;
+    font-weight: normal;
+  }
   li {
-      padding: 10px;
-      text-align: center;
- }
+    padding: 10px;
+    text-align: center;
+  }
   li a {
-      display: block;
-      background: transparent;
-      margin: 0px;
-      padding: 20px;
-      color: #303033 !important;
- }
+    display: block;
+    background: transparent;
+    margin: 0px;
+    padding: 20px;
+    color: #303033 !important;
+  }
   li a:hover {
-      background: #fc6027;
- }
-  .icon_nav, .icon_nav span {
-      display: inline-block;
-      transition: all .3s;
-      box-sizing: border-box;
-      z-index: 999;
- }
+    background: #EF653C;
+  }
+  .icon_nav,
+  .icon_nav span {
+    display: inline-block;
+    transition: all .3s;
+    box-sizing: border-box;
+    z-index: 999;
+  }
   .parallax h2 {
-      font-size: 20px;
-      margin-top: 70px;
-      padding: 10px;
- }
+    font-size: 20px;
+    margin-top: 70px;
+    padding: 10px;
+  }
   .parallax p {
-      font-size: 13px;
- }
+    font-size: 13px;
+  }
   .btn-agendamento {
-      margin: 10px 10px;
- }
+    margin: 10px 10px;
+  }
   .typewriter h1 {
-      font-size: 12px;
-      padding-bottom: 50px;
- }
+    font-size: 12px;
+    padding-bottom: 50px;
+  }
   .orientacoes h2 {
-      font-size: 20px;
-      margin-top: 20px;
- }
+    font-size: 20px;
+    margin-top: 20px;
+  }
   .box-single p {
-      font-size: 13px;
- }
+    font-size: 13px;
+  }
   .icones-orientacoes {
-      display: block;
- }
+    display: block;
+  }
   .agendamento h2 {
-      padding-top: 50px;
-      font-size: 20px;
- }
-  .agendamento h3{
-      font-size: 17px;
- }
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .agendamento h3 {
+    font-size: 17px;
+  }
   .agendamento p {
-      font-size: 13px;
- }
+    font-size: 13px;
+  }
   .legenda {
-      text-align: center;
-      padding: 10px 0;
- }
+    text-align: center;
+    padding: 10px 0;
+  }
   .legenda img {
-      width: 250px;
- }
+    width: 250px;
+  }
   .box-mesa img {
-      width: 15px;
- }
+    width: 15px;
+  }
   figcaption {
-      font-size: 8px;
- }
-  .btn-clear, .btn-reserve {
-      font-size: 10px;
- }
-  input, textarea, select, #date {
-      width: calc(100% - 18px);
-      margin: 10px 0;
- }
-  #appearance-select{
-      background-position: 290px center;
- }
+    font-size: 8px;
+  }
+  .btn-clear,
+  .btn-reserve {
+    font-size: 10px;
+  }
+  input,
+  textarea,
+  select,
+  #date {
+    width: calc(100% - 18px);
+    margin: 10px 0;
+  }
+  #appearance-select {
+    background-position: 290px center;
+  }
   .footer {
-      display: block;
-      text-align: center;
-      font-size: 15px;
-      padding-bottom: 0;
- }
-  footer p{
-      text-align: center;
-      font-size: 13px;
- }
-  footer h4{
-      font-size: 16px;
-      text-align: center!important;
-      margin-bottom: -8px;
- }
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+  footer p {
+    text-align: center;
+    font-size: 13px;
+  }
+  footer h4 {
+    font-size: 16px;
+    text-align: center!important;
+    margin-bottom: -8px;
+  }
   footer h5 {
-      font-size: 15px;
-      text-align: center;
-      font-weight: normal;
- }
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+  }
   div.group-icons {
-      text-align: center;
- }
+    text-align: center;
+  }
   div.group-icons a {
-      font-size: 25px;
- }
+    font-size: 25px;
+  }
 }

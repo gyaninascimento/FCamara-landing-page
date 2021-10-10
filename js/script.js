@@ -8,18 +8,18 @@ function LibrerarMesas() {
         if (imagens[cont].name == "MesaEscolhida") {
             imagens[cont].src = "img/MesaLivre.png ";
             imagens[cont].name = "MesaLivre";
-        } 
+        }
     }
 }
 
-function VerificarMesas (name, id){
-    if (name == "MesaLivre"){
+function VerificarMesas(name, id) {
+    if (name == "MesaLivre") {
         OcuparMesas(id);
-    }else{
+    } else {
         (name == "MesaOcupada"); {
             alert("A mesa está Ocupada!");
+        }
     }
-}
 }
 
 $("#MesaIndisponivel").addClass("MesaIndisponivel");
@@ -37,14 +37,13 @@ function FinalizarReserva() {
         if (imagens[cont].name == "MesaEscolhida") {
             imagens[cont].src = "img/MesaOcupada.png";
             imagens[cont].name = "MesaOcupada";
-        } 
+        }
     }
 }
 
 
 
 
-$("#formulario").submit(function(){
+$("#formulario").submit(function () {
     alert("A solicitação de agendamento foi enviada com sucesso!");
-    });
-    
+});
