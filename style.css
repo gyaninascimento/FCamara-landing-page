@@ -38,7 +38,6 @@ header {
 .logo img{
   width: 70%;
   margin-top: 10px;
-
 }
 nav {
   margin: 0px auto;
@@ -208,7 +207,7 @@ span{
 }
 /*-----------------------------------ORIENTAÇÕES----------------------------------------------------------------*/
 .orientacoes{
-  background-image: linear-gradient(to right,  rgb(224, 224, 224), rgba(255,0,0,0));
+  background-image: linear-gradient(to right, rgb(224, 224, 224), rgba(255,0,0,0));
   padding: 30px 0 
 }
 .orientacoes h2 {
@@ -244,7 +243,7 @@ b{
 }
 /*-----------------------------------AGENDAMENTO----------------------------------------------------------------*/
 .agendamento{
-  background-image: linear-gradient(to right,  rgb(224, 224, 224), rgba(255,0,0,0));
+  background-image: linear-gradient(to right, rgb(224, 224, 224), rgba(255,0,0,0));
 }
 .agendamento h2 {
   font-size: 30px;
@@ -267,41 +266,39 @@ mark{
   background-color: #fc6027;
   color: #fff;
 }
-
 /*-----------------------------------MESAS----------------------------------------------------------------*/
 .fileiras {
   display: flex;
-   justify-content: center;
- }
- .box-mesa {
-   width: 50px;
-   margin: 10px;
-   position: relative;
-   text-align: center;
- }
- .box-mesa img{
-   width: 25px;
- }
- .legenda{
-   text-align: center;
-   padding: 10px 30px;
- }
- .legenda img {
-   width: 300px;
-   margin:5px;
-   border: 1px dotted;
- }
- figcaption{
-   color: #303033;
-   font-weight: normal;
-   font-size: 12px;
-   margin-top: -5px;
- }
- .MesaIndisponivel{
-   pointer-events: none;
-   opacity: 0.5;
- }
- 
+  justify-content: center;
+}
+.box-mesa {
+  width: 50px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.box-mesa img{
+  width: 25px;
+}
+.legenda{
+  text-align: center;
+  padding: 10px 30px;
+}
+.legenda img {
+  width: 300px;
+  margin:5px;
+  border: 1px dotted;
+}
+figcaption{
+  color: #303033;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: -5px;
+}
+.MesaIndisponivel{
+  pointer-events: none;
+  opacity: 0.5;
+}
 /*-----------------------------------BTN-MESA------------------------------------------------------------*/
 .btn-clear, .btn-reserve{
   background-color: rgb(168, 168, 168);
@@ -323,7 +320,6 @@ mark{
   background-color: #ccc;
   transition: all 0.5s;
 }
-
 /*-----------------------------------FORM----------------------------------------------------------------*/
 form{
   text-align: center;
@@ -373,7 +369,6 @@ input::placeholder, textarea::placeholder {
   background-color: #051836;
   transition: all 0.5s;
 }
-
 /*-----------------------------------FOOTER----------------------------------------------------------------*/
 .footer{
   display: flex;
@@ -432,13 +427,12 @@ div.group-icons a{
   margin: 15px 18px;
   text-decoration: none;
 }
-
 /*------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 700px) {
   header {
       position: relative;
       z-index: 900;
-        position: fixed;
+      position: fixed;
  }
   .logo {
       margin: 0 0 0 20px;
@@ -529,10 +523,9 @@ div.group-icons a{
       width: calc(100% - 18px);
       margin: 10px 0;
  }
- #appearance-select{
-  background-position: 290px center;
-
-}
+  #appearance-select{
+      background-position: 290px center;
+ }
   .footer {
       display: block;
       text-align: center;
