@@ -40,3 +40,11 @@ function FinalizarReserva() {
         } 
     }
 }
+
+
+
+
+$("#formulario").submit(function(){
+    alert("A solicitação de agendamento foi enviada com sucesso!");
+    });
+    
