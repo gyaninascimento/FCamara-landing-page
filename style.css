@@ -206,4 +206,40 @@ span{
       width: 100% 
  }
 }
+/*-----------------------------------ORIENTAÇÕES----------------------------------------------------------------*/
+.orientacoes{
+  background-image: linear-gradient(to right,  rgb(224, 224, 224), rgba(255,0,0,0));
+  padding: 30px 0 
+}
+.orientacoes h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #303033;
+  margin-top: 50px;
+}
+.icones-orientacoes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box-single {
+  flex-basis: 30%;
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
+}
+.box-single img {
+  width: 70px;
+}
+.box-single p {
+  color: #303033;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: justify 
+}
+b{
+  color: #fc6027;
+  font-weight: normal;
+}
 
