@@ -230,7 +230,6 @@ span {
   color: #4b4fa1;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 1px;
   text-shadow: 3px 3px 1px #ccc;
   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
@@ -369,7 +368,7 @@ figcaption {
 
 .btn-clear,
 .btn-reserve {
-  background-color: rgb(168, 168, 168);
+  background-color: #4b4fa1;;
   border: 0;
   border-radius: 25px;
   color: #fff;
