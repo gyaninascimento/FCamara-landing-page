@@ -1,2 +1,2 @@
-# FCamara
- Landing Page Flexbox 
+ # FCamara
+ Landing Page Flexbox Parallax responsive
