@@ -242,4 +242,29 @@ b{
   color: #fc6027;
   font-weight: normal;
 }
+/*-----------------------------------AGENDAMENTO----------------------------------------------------------------*/
+.agendamento{
+  background-image: linear-gradient(to right,  rgb(224, 224, 224), rgba(255,0,0,0));
+}
+.agendamento h2 {
+  font-size: 30px;
+  color: #303033;
+  text-align: center;
+  padding-top: 80px;
+}
+.agendamento h3{
+  text-align: center;
+  margin: 10px;
+  color: #303033;
+  font-size: 20px;
+}
+.agendamento p{
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: center;
+}
+mark{
+  background-color: #fc6027;
+  color: #fff;
+}
 
