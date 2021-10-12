@@ -63,7 +63,6 @@ ul {
 
 nav li {
   padding: 0 16px;
-  transition: 0.3s;
   text-align: center;
 }
 
@@ -405,7 +404,6 @@ textarea,
   margin: 10px 20px;
   border: 0;
   resize: none;
-  transition: 250ms width ease, 250ms border-color ease;
   background-color: #fff;
 }
 
@@ -552,7 +550,6 @@ div.group-icons a {
   .icon_nav,
   .icon_nav span {
     display: inline-block;
-    transition: all .3s;
     box-sizing: border-box;
     z-index: 999;
   }
