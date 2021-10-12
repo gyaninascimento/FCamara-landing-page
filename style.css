@@ -398,7 +398,6 @@ form {
 
 input,
 textarea,
-select,
 #date {
   width: calc(60% - 18px);
   padding: 10px 15px;
@@ -416,16 +415,6 @@ textarea::placeholder {
   font-family: 'Open Sans', sans-serif;
 }
 
-#appearance-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: url(img/seta.gif) no-repeat;
-  background-size: 30px;
-  background-position: 630px center;
-  color: #303033;
-  background-color: #fff;
-}
 
 
 /*-----------------------------------BTN AGENDAMENTO----------------------------------------------------------------*/
@@ -625,14 +614,11 @@ div.group-icons a {
   }
   input,
   textarea,
-  select,
   #date {
     width: calc(100% - 18px);
     margin: 10px 0;
   }
-  #appearance-select {
-    background-position: 290px center;
-  }
+  
   .footer {
     display: block;
     text-align: center;
