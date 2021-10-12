@@ -19,7 +19,7 @@
                 <div class="logo"><a href="https://www.fcamara.com.br/"><img src="img/logo-fcamara.png" alt=""></a>
                 </div>
                 <!--logo-->
-                <ul>
+                <ul  class="active">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#orientacoes">Orientações</a></li>
                     <li><a href="#agendamento">Agendamento</a></li>
@@ -34,6 +34,7 @@
         </div>
         <!--container-->
     </header>
+    
 
     <section id="home" class="parallax" style="background-image: url(img/bg.jpg);">
         <div class="container">
@@ -165,9 +166,17 @@
     <section id="agendamento" class="agendamento">
         <div class="container">
             <h2>AGENDAMENTO</h2>
-            <p><mark>1º - Selecione e clique em confirmar mesa.</mark></p>
+            <p><mark>1º - Selecione o escritório</mark></p>
             <br>
-            <p> <mark>2º - Preencha o formulário e clique em enviar.</mark> </p>
+            <p><mark>2º - Selecione e clique em confirmar mesa.</mark></p>
+            <br>
+            <p> <mark>3º - Preencha o formulário e clique em enviar.</mark> </p>
+            
+            <div class="fileiras">
+                <button  class="btn btn-reserve">São Paulo</button>
+                <button  class="btn btn-reserve">Santos</button>
+            </div>
+            
             <h3>Selecione a sua mesa</h3>
             <div class="legenda">
                 <img src="img/legenda.jpg" alt="">
@@ -210,7 +219,7 @@
                     </div>
                     <!--box-mesa-->
                     <div class="box-mesa">
-                        <img src="img/MesaLivre.png" name="MesaLivre" id="Mesa07Fileira1"
+                        <img src="img/MesaOcupada.png" name="MesaOcupada" id="Mesa07Fileira1"
                             onclick="VerificarMesas(name, id);">
                         <figcaption>A7</figcaption>
                     </div>
@@ -240,7 +249,7 @@
                     </div>
                     <!--box-mesa-->
                     <div class="box-mesa">
-                        <img src="img/MesaLivre.png" name="MesaLivre" id="Mesa02Fileira2"
+                        <img src="img/MesaOcupada.png" name="MesaOcupada" id="Mesa02Fileira2"
                             onclick="VerificarMesas(name, id);">
                         <figcaption>B2</figcaption>
                     </div>
@@ -251,7 +260,7 @@
                     </div>
                     <!--box-mesa-->
                     <div class="box-mesa">
-                        <img src="img/MesaLivre.png" name="MesaLivre" id="Mesa04Fileira2"
+                        <img src="img/MesaOcupada.png" name="MesaOcupada" id="Mesa04Fileira2"
                             onclick="VerificarMesas(name, id);">
                         <figcaption>B4</figcaption>
                     </div>
@@ -293,7 +302,7 @@
                 <!--fileiras-->
                 <div class="fileiras">
                     <div class="box-mesa">
-                        <img src="img/MesaLivre.png" name="MesaLivre" id="Mesa1Fileira3"
+                        <img src="img/MesaOcupada.png" name="MesaOcupada" id="Mesa1Fileira3"
                             onclick="VerificarMesas(name, id);">
                         <figcaption>C1</figcaption>
                     </div>
@@ -326,7 +335,7 @@
                     </div>
                     <!--box-mesa-->
                     <div class="box-mesa">
-                        <img src="img/MesaLivre.png" name="MesaLivre" id="Mesa07Fileira3"
+                        <img src="img/MesaOcupada.png" name="MesaOcupada" id="Mesa07Fileira3"
                             onclick="VerificarMesas(name, id);">
                         <figcaption>C7</figcaption>
                     </div>
@@ -466,6 +475,9 @@
             </div>
             <!--fileiras-wrapper-->
             <br><br>
+            <br>
+            
+            
             <h3>Preencha o formulário</h3>
             <form action="" method="get" id="formulario">
                 <input required type="text" name="name" placeholder="Digite seu nome completo *">
@@ -540,7 +552,7 @@
             $(window).on('load resize', function () {
                 var w = $(window).width();
                 var h = $(window).height();
-                var x = 700;
+                var x = 200;
                 if (w >= x) {
                     $('nav ul').css({ display: 'flex', height: 'auto' });
                 } else {

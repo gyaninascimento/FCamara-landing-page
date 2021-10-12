@@ -63,7 +63,7 @@ ul {
 
 nav li {
   padding: 0 16px;
-  transition: 0.3s;
+  transition: 0;
   text-align: center;
 }
 
@@ -365,6 +365,7 @@ figcaption {
 
 /*-----------------------------------BTN-MESA------------------------------------------------------------*/
 
+
 .btn-clear,
 .btn-reserve {
   background-color: #4b4fa1;;
@@ -563,7 +564,7 @@ div.group-icons a {
   .icon_nav,
   .icon_nav span {
     display: inline-block;
-    transition: all .3s;
+    transition: 0;
     box-sizing: border-box;
     z-index: 999;
   }
