@@ -14,8 +14,6 @@ body {
   width: 100%;
   padding: 0 2%;
   margin: 0 auto;
-  top: 0;
-  left: 0;
 }
 
 
@@ -132,7 +130,6 @@ nav a:hover {
 
 
 /*-------------------------------------PARALLAX---------------------------------------------------------------------*/
-
 .overlay {
   z-index: 1;
   position: absolute;
@@ -570,7 +567,7 @@ div.group-icons a {
 
   
   .typewriter h1 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .orientacoes h2 {
     font-size: 20px;
